@@ -36,6 +36,10 @@ a {
   text-decoration: none;
 }
 
+span {
+  display: inline-flex;
+}
+
 ul {
   list-style: none;
   padding: 0;
@@ -806,6 +810,7 @@ body.modal-open {
 .modal-checkbox:checked + .modal-checkbox-label .modal-checkbox-custom {
   background-color: var(--ocean);
   border: none;
+  fill: var(--cloud);
 }
 
 .modal-checkbox:checked + .modal-checkbox-label .modal-checkbox-icon {
